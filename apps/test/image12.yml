@@ -1,0 +1,33 @@
+id: image12
+type: widget
+subtype: ImageWidget2
+resourceName: null
+template:
+  ordered:
+    - heightType: fixed
+    - horizontalAlign: center
+    - srcWidth: null
+    - clickable: false
+    - src: >
+        https://jacksoncenter.com/sites/default/files/Markup%20Utility%20Bill%202_1.jpg
+    - hidden: false
+    - srcHeight: null
+    - showInEditor: false
+    - tooltipText: ''
+    - fit: contain
+    - aspectRatio: null
+    - storageBlobId: ''
+    - altText: ''
+    - dbBlobId: ''
+    - events:
+        ordered: []
+    - srcType: src
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: modal3
+    height: 18
+    width: 7
+createdAt: 2021-09-29T16:32:07.956Z

@@ -1,0 +1,25 @@
+id: editableText2
+type: widget
+subtype: EditableTextWidget
+resourceName: null
+template:
+  ordered:
+    - leftIconName: ''
+    - onChange: ''
+    - tooltipText: ''
+    - value: Request for additional documents
+    - placeholder: Enter value
+    - label: Subject
+    - labelMaxWidth: ''
+    - labelPlacedOnLeft: false
+    - disabled: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: container28
+    row: 0.6000000000000001
+    col: 5
+    height: 1
+    width: 7
+createdAt: 2021-09-27T19:41:59.155Z

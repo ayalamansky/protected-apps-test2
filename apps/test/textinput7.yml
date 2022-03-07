@@ -1,0 +1,49 @@
+id: textinput7
+type: widget
+subtype: TextInputWidget
+resourceName: null
+template:
+  ordered:
+    - validationMaxlengthValue: ''
+    - readonly: ''
+    - disabledKeyCodes: ''
+    - showNumberCommas: false
+    - validationMaxValue: ''
+    - onBlur: ''
+    - currencyType: USD
+    - leftIconName: ''
+    - initialValue: ''
+    - validationMessage: ''
+    - tooltipText: ''
+    - value: ''
+    - suffix: ''
+    - validationMinlengthValue: ''
+    - validationLengthValue: ''
+    - placeholder: Enter value
+    - validationType: ''
+    - label: Search by account ID
+    - currencyMajorOnly: false
+    - formattedValue: ''
+    - allowedInputsRegex: ''
+    - labelMaxWidth: ''
+    - enableValidationType: false
+    - labelPlacedOnLeft: false
+    - onSubmit: ''
+    - validationMinValue: ''
+    - lastSubmittedAt: ''
+    - validationState:
+        object:
+          required: ''
+          validationType: ''
+    - type: text
+    - allowedRegex: ''
+    - required: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: container18
+    col: 6
+    height: 2
+    width: 3
+createdAt: 2021-06-10T17:53:01.319Z

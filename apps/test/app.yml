@@ -1,0 +1,8 @@
+version: 43.0.9
+pageUuid: ff4afda0-1c0d-11ec-9a40-47101b6c5ca4
+appTemplate:
+  appThemeId: 921
+  customDocumentTitle: KYC - Customer Onboarding
+  rootScreen: null
+  customDocumentTitleEnabled: true
+  version: 2.84.20

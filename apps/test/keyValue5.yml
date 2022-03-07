@@ -1,0 +1,52 @@
+id: keyValue5
+type: widget
+subtype: KeyValueMapWidget
+resourceName: null
+template:
+  ordered:
+    - rowHeaderNames:
+        ordered: []
+    - rowFormats:
+        ordered: []
+    - valueTitle: Value
+    - data: "{\n  \"Document type\": \"Bill\",\n  \"Company\": \"ShopCo\",\n  \"Number\": 910239248,\n\t\"First name\": \"John\",\n\t\"Last name\": \"Smith\",\n  \"State\": \"North Carolina\",\n\t\"Country\": \"USA\"\n}"
+    - prevRowMappers:
+        ordered: []
+    - rowMappersRenderAsHTML:
+        ordered: []
+    - rowVisibility:
+        ordered:
+          - a: true
+          - b: true
+          - c: true
+          - Number: true
+          - State: true
+          - Last name: true
+          - Country: true
+          - First name: true
+          - Company: true
+          - Document type: true
+    - prevRowFormats:
+        ordered: []
+    - rowMappers:
+        ordered: []
+    - rows:
+        - a
+        - b
+        - c
+        - Document type
+        - Company
+        - Number
+        - First name
+        - Last name
+        - State
+        - Country
+    - keyTitle: Key
+style:
+  ordered: []
+position2:
+  position2:
+    container: container29
+    height: 9.8
+    width: 12
+createdAt: 2021-09-29T18:24:56.667Z

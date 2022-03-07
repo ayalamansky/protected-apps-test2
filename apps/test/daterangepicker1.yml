@@ -1,0 +1,32 @@
+id: daterangepicker1
+type: widget
+subtype: DateRangePickerWidget
+resourceName: null
+template:
+  ordered:
+    - minDate: ''
+    - startFormattedString: null
+    - formattedString: null
+    - startValue: '  {{ moment().subtract(5, ''year'')}}'
+    - tooltipText: ''
+    - startPlaceholder: ''
+    - endFormattedString: null
+    - maxDate: ''
+    - label: Filter by date range
+    - endValue: '  {{ moment().add(5, ''year'')}}'
+    - labelMaxWidth: ''
+    - labelPlacedOnLeft: false
+    - format: MM/DD/YYYY
+    - endPlaceholder: ''
+    - onSelect: ''
+    - disabled: ''
+    - useLocalTimezone: true
+style:
+  ordered: []
+position2:
+  position2:
+    container: container18
+    col: 9
+    height: 2
+    width: 3
+createdAt: 2021-06-10T17:52:05.970Z

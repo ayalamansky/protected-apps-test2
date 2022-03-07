@@ -1,0 +1,38 @@
+id: checkbox1
+type: widget
+subtype: CheckboxWidget2
+resourceName: null
+template:
+  ordered:
+    - hidden: false
+    - customValidation: ''
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - showInEditor: false
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value: 'true'
+    - style:
+        ordered:
+          - checkedBackground: rgba(12, 209, 144, 1)
+    - labelCaption: ''
+    - label: Plaid API Check
+    - _validate: false
+    - invalid: false
+    - events:
+        ordered: []
+    - disabled: ''
+    - labelPosition: right
+    - labelWrap: false
+    - maintainSpaceWhenHidden: false
+    - required: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: container22
+    row: 0.2
+    height: 0.6
+    width: 4
+createdAt: 2021-09-27T13:47:24.808Z

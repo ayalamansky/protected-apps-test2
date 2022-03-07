@@ -1,0 +1,72 @@
+id: checkboxGroup1
+type: widget
+subtype: CheckboxGroupWidget2
+resourceName: null
+template:
+  ordered:
+    - _disabledByIndex: []
+    - _values: []
+    - values: '{{ listbox1.values.concat([''W2'']) }}'
+    - selectedIndexes:
+        array: []
+    - selectedItems:
+        array: []
+    - _data: []
+    - groupLayout: multiColumn
+    - hidden: false
+    - customValidation: ''
+    - data:
+        array: []
+    - maxCount: null
+    - hideValidationMessage: false
+    - validationMessage: ''
+    - showInEditor: false
+    - tooltipText: ''
+    - labelAlign: left
+    - formDataKey: '{{ self.id }}'
+    - value: ''
+    - hiddenByIndex:
+        array: []
+    - labelCaption: ''
+    - labelWidth: '33'
+    - deprecatedLabels:
+        array: []
+    - _hiddenByIndex: []
+    - _captionByIndex: []
+    - label: Select documents for request
+    - _hasMigratedNestedItems: false
+    - captionByIndex:
+        array: []
+    - _validate: false
+    - itemMode: dynamic
+    - labelWidthUnit: '%'
+    - invalid: false
+    - _tooltipByIndex: []
+    - tooltipByIndex:
+        array: []
+    - optionMode: dynamic
+    - events:
+        ordered: []
+    - _ids: []
+    - selectedLabels:
+        array: []
+    - disabled: false
+    - labelPosition: top
+    - minCount: null
+    - _labels: []
+    - labelWrap: false
+    - disabledValues:
+        array: []
+    - disabledByIndex:
+        array: []
+    - maintainSpaceWhenHidden: false
+    - required: false
+    - labels: '{{ listbox1.values }}'
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabs1
+    height: 0.6
+    width: 8
+createdAt: 2021-09-27T19:00:18.758Z

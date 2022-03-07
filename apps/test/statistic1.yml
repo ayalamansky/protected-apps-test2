@@ -1,0 +1,26 @@
+id: statistic1
+type: widget
+subtype: StatisticWidget
+resourceName: null
+template:
+  ordered:
+    - title: Subscription status
+    - value: '{{ subscriptions.data.status[0] ? "Active" : "Inactive"}}'
+    - prefix: ''
+    - suffix: ''
+    - precision: ''
+    - round: false
+    - id: statistic1
+    - style:
+        ordered: []
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer2
+    row: 1.7999999999999998
+    col: 4
+    height: 2
+    width: 2
+    tabNum: 1
+createdAt: 2021-06-08T20:52:51.739Z

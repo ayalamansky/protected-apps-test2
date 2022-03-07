@@ -1,0 +1,40 @@
+id: alert2
+type: widget
+subtype: AlertWidget
+resourceName: null
+template:
+  ordered:
+    - valueToCopy: ''
+    - internalUrlHashParams: ''
+    - exportFileType: csv
+    - buttonType: action
+    - url: ''
+    - newWindow: false
+    - exportQuery: ''
+    - action: ''
+    - internalUrlQuery: ''
+    - internalUrlPath: ''
+    - title: 'Missing Document:  W2'
+    - events:
+        - ordered:
+            - event: click
+            - type: widget
+            - method: open
+            - pluginId: modal2
+            - params:
+                ordered: []
+            - waitType: debounce
+            - waitMs: '0'
+    - type: warning
+    - exportFileName: ''
+    - description: ''
+    - buttonText: Request Additional Info
+style:
+  ordered: []
+position2:
+  position2:
+    container: container19
+    row: 0.20000000000000018
+    height: 1
+    width: 6
+createdAt: 2021-09-23T03:13:05.376Z

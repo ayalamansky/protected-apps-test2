@@ -1,0 +1,26 @@
+id: container17
+type: widget
+subtype: ContainerWidget
+resourceName: null
+template:
+  ordered:
+    - heightType: fixed
+    - spinWhenChildrenAreFetching: true
+    - showBorder: true
+    - hidden: '{{ search_user.data == null ||search_user.isFetching }}'
+    - showDropShadow: true
+    - style:
+        ordered:
+          - primary-background: rgb(236, 238, 255)
+    - title: KYC Status
+    - overflowType: hidden
+    - disabled: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer2
+    col: 8
+    height: 7.600000000000001
+    width: 4
+createdAt: 2021-06-10T14:08:15.431Z
