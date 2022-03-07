@@ -1,0 +1,23 @@
+id: timeline1
+type: widget
+subtype: TimelineWidget
+resourceName: null
+template:
+  ordered:
+    - items: >-
+        {{ formatDataAsArray(audit_logs.data).map(row=>`${row['Action Type']}:
+        ${row['Admin Name']}`) }}
+    - pending: ''
+    - timestamps: '{{ audit_logs.data[''Action Taken At''] }}'
+    - renderAsHtml: false
+    - isGrouped: true
+    - sortedDesc: true
+    - groupBy: day
+style:
+  ordered: []
+position2:
+  position2:
+    container: container12
+    height: 7.4
+    width: 12
+createdAt: 2021-09-23T03:10:42.035Z

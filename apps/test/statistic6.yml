@@ -1,0 +1,26 @@
+id: statistic6
+type: widget
+subtype: StatisticWidget
+resourceName: null
+template:
+  ordered:
+    - title: Last transaction
+    - value: '{{ stats.value.lastPaid }}'
+    - prefix: ''
+    - suffix: ''
+    - precision: ''
+    - round: false
+    - id: statistic2
+    - style:
+        ordered: []
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer2
+    row: 4.4
+    col: 8
+    height: 2
+    width: 2
+    tabNum: 1
+createdAt: 2021-06-08T21:07:17.163Z

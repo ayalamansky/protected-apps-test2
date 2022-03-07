@@ -1,0 +1,25 @@
+id: text44
+type: widget
+subtype: TextWidget2
+resourceName: null
+template:
+  ordered:
+    - heightType: auto
+    - horizontalAlign: left
+    - hidden: false
+    - imageWidth: fit
+    - showInEditor: false
+    - verticalAlign: center
+    - tooltipText: ''
+    - value: '### Add note'
+    - disableMarkdown: false
+    - overflowType: scroll
+    - maintainSpaceWhenHidden: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: modal1
+    height: 0.6
+    width: 12
+createdAt: 2021-09-26T23:23:45.847Z

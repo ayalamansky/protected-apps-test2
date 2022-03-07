@@ -1,0 +1,22 @@
+id: container21
+type: widget
+subtype: ContainerWidget
+resourceName: null
+template:
+  ordered:
+    - title: ''
+    - disabled: ''
+    - spinWhenChildrenAreFetching: true
+    - showBorder: true
+    - showDropShadow: true
+    - heightType: fixed
+    - overflowType: hidden
+style:
+  ordered: []
+position2:
+  position2:
+    container: container20
+    row: 1.0000000000000004
+    height: 4.6000000000000005
+    width: 12
+createdAt: 2021-09-26T22:59:44.968Z

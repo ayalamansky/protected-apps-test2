@@ -1,0 +1,49 @@
+id: text3
+type: widget
+subtype: TextWidget
+resourceName: null
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: top
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: >-
+        ## {{ subscriptions.data.first_name[0]}} {{
+        subscriptions.data.last_name[0]}} 
+
+        <br><br>
+
+        Member since <b>{{ moment(subscriptions.data.start_date[0]).subtract(5,
+        'year').format("L") }}</b>
+
+        <br> <br> <br>
+
+        Last active <b>{{ moment(subscriptions.data.date_created[0]).format("L")
+        }}</b>
+
+        <br> <br> <br>
+
+        Address <b>{{ subscriptions.data.address[0] }}</b>
+
+        <br> <br> <br>
+
+        Payment type <b> {{ subscriptions.data.payment_type[0]}} </b>
+    - style:
+        ordered: []
+    - renderAsHtml: true
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+    - id: text3
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabbedcontainer2
+    col: 2
+    height: 7.2
+    width: 2
+    tabNum: 1
+createdAt: 2021-06-08T20:52:51.624Z

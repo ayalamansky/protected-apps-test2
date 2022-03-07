@@ -1,0 +1,22 @@
+id: container35
+type: widget
+subtype: ContainerWidget
+resourceName: null
+template:
+  ordered:
+    - title: ''
+    - disabled: ''
+    - spinWhenChildrenAreFetching: true
+    - showBorder: true
+    - showDropShadow: true
+    - heightType: auto
+    - overflowType: hidden
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabs1
+    row: 1.8000000000000003
+    height: 11.399999999999999
+    width: 8
+createdAt: 2021-09-29T18:31:16.736Z

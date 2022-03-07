@@ -1,0 +1,14 @@
+id: $main
+type: frame
+subtype: Frame
+resourceName: null
+template:
+  ordered:
+    - type: main
+    - sticky: false
+    - style:
+        ordered:
+          - canvas: rgba(255, 255, 255, 0)
+style:
+  ordered: []
+createdAt: 2021-09-23T02:47:08.801Z

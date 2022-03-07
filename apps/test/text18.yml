@@ -1,0 +1,28 @@
+id: text18
+type: widget
+subtype: TextWidget
+resourceName: null
+template:
+  ordered:
+    - horizontalAlign: left
+    - truncateOverflow: false
+    - verticalAlign: center
+    - scrollOverflow: false
+    - tooltipText: ''
+    - value: 'Payment amount: <b>{{ table1.selectedRow.data.amount}}</b>'
+    - style:
+        ordered: []
+    - renderAsHtml: true
+    - backgroundColor: '#0000'
+    - textColor: '#312929'
+    - renderAsMarkdown: true
+    - id: text4
+style:
+  ordered: []
+position2:
+  position2:
+    container: container6
+    row: 1
+    height: 1
+    width: 11
+createdAt: 2021-06-09T15:57:52.400Z

@@ -1,0 +1,18 @@
+id: transactionsByDay
+type: function
+subtype: Function
+resourceName: null
+template:
+  ordered:
+    - funcBody: |-
+        const transactions = {{ formatDataAsArray(all_transactions.data) }}
+
+        const groupedByDay = _.groupBy(transactions, t => moment(t.date).day())
+        const days = _.map(groupedByDay, d => ({
+          days: moment(d[0].date).format("L"),
+          amounts: _.sumBy(d, dayData => parseInt(dayData.amount.split("$")[1] || dayData.amount))
+        })).sort((a,b) => moment(a.days) - moment(b.days))
+                          
+        return formatDataAsObject(days)
+    - value: ''
+createdAt: 2021-06-08T21:09:00.329Z

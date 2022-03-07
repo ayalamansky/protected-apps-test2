@@ -1,0 +1,52 @@
+id: keyValue9
+type: widget
+subtype: KeyValueMapWidget
+resourceName: null
+template:
+  ordered:
+    - rowHeaderNames:
+        ordered: []
+    - rowFormats:
+        ordered: []
+    - valueTitle: Value
+    - data: |-
+        {
+          "Number": 123456789,
+          "Name": "John O Public",
+          "Signed": 'No'
+        }
+    - prevRowMappers:
+        ordered: []
+    - rowMappersRenderAsHTML:
+        ordered: []
+    - rowVisibility:
+        ordered:
+          - a: true
+          - b: true
+          - c: true
+          - Number: true
+          - '': true
+          - Name: true
+          - Signed: true
+    - prevRowFormats:
+        ordered: []
+    - rowMappers:
+        ordered: []
+    - rows:
+        - a
+        - b
+        - c
+        - Number
+        - ''
+        - Name
+        - Signed
+    - keyTitle: Key
+style:
+  ordered: []
+position2:
+  position2:
+    container: container34
+    height: 6.6000000000000005
+    width: 12
+    tabNum: 3
+createdAt: 2021-09-29T18:30:33.164Z

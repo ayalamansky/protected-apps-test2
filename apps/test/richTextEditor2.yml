@@ -1,0 +1,41 @@
+id: richTextEditor2
+type: widget
+subtype: TextEditorWidget
+resourceName: null
+template:
+  ordered:
+    - value: >-
+        Hi {{ table4.selectedRow.data.first_name }},
+
+        <br>
+
+        <br>We were not able to properly verify your identity with the documents
+        submitted. Please attach the following document(s) as a PNG or PDF: 
+
+        <br/>
+
+        <br/>
+
+        <ul>
+          {{  checkboxGroup1.value.map(v => '<li><b>' + v + '</li></b>').join("") }}
+        </ul>
+
+        <br>
+
+        Hope you have a great day!
+
+        <br>
+
+        <br>
+
+        - Finco support
+    - onBlur: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: container28
+    row: 1.5999999999999992
+    height: 6.200000000000001
+    width: 12
+createdAt: 2021-09-27T19:41:59.242Z

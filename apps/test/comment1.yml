@@ -1,0 +1,26 @@
+id: comment1
+type: widget
+subtype: NoteWidget
+resourceName: null
+template:
+  ordered:
+    - defaultValue: ''
+    - tooltipText: ''
+    - newCommentValue: ''
+    - placeholder: Write your note here...
+    - comments:
+        array: []
+    - label: Notes
+    - evaluatedKey: ''
+    - labelMaxWidth: ''
+    - labelPlacedOnLeft: false
+style:
+  ordered: []
+position2:
+  position2:
+    container: tabs1
+    row: 1.8
+    col: 8
+    height: 10.8
+    width: 4
+createdAt: 2021-09-27T18:25:29.040Z

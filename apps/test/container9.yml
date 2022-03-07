@@ -1,0 +1,27 @@
+id: container9
+type: widget
+subtype: TabbedContainerWidget
+resourceName: null
+template:
+  ordered:
+    - heightType: fixed
+    - spinWhenChildrenAreFetching: true
+    - unmountInactiveTabs: false
+    - style:
+        ordered:
+          - border-color: rgba(222, 222, 222, 1)
+    - tabNames: '["Driver''s License", ''Proof of Residency'',''Passport'',''Social Security'']'
+    - selectedTabIndex: 0
+    - selectedTab: '{{ listbox1.values.indexOf(listbox1.value) }}'
+    - showTabBar: false
+    - disableAnimation: true
+    - overflowType: hidden
+    - disabled: ''
+style:
+  ordered: []
+position2:
+  position2:
+    container: container23
+    height: 6.6
+    width: 12
+createdAt: 2021-06-09T15:58:54.836Z

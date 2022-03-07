@@ -1,0 +1,32 @@
+id: modal4
+type: widget
+subtype: ModalWidget
+resourceName: null
+template:
+  ordered:
+    - opened: false
+    - modalOverflowType: scroll
+    - onModalClose: ''
+    - modalHeightType: fixed
+    - tooltipText: ''
+    - style:
+        ordered:
+          - accent-background: rgb(0, 69, 129)
+    - modalHeight: 760px
+    - onModalOpen: ''
+    - events: []
+    - modalWidth: 70%
+    - closeOnOutsideClick: false
+    - loading: ''
+    - disabled: ''
+    - buttonText: Details
+style:
+  ordered: []
+position2:
+  position2:
+    container: container23
+    row: 6.6000000000000005
+    col: 8
+    height: 1
+    width: 4
+createdAt: 2021-09-29T18:36:09.794Z
